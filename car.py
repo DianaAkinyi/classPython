@@ -14,3 +14,4 @@ class Car:
     
     def  accelerate(self):
         return f"The {self.make} car is accelerating at a high  speed"
+    
