@@ -25,6 +25,7 @@ class Account:
     def deposit(self, amount):
         transaction = {
             "amount": amount,
+            "narration":"deposit",
             
         }
         self.deposits.append(transaction)
@@ -32,6 +33,8 @@ class Account:
     def withdrawal(self, amount):
         transaction = {
             "amount": amount,
+            "narration": "withdrawal",
+
            
         }
         self.withdrawals.append(transaction)
